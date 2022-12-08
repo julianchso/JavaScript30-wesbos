@@ -8,3 +8,6 @@ function logText(e) {
 divs.forEach((div) => {
   div.addEventListener("click", logText, { useCapture: false, once: true });
 });
+
+
+// testing
